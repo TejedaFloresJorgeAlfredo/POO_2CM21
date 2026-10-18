@@ -33,7 +33,7 @@ public class PrimaryController {
         Cantidades.appendText(quinientos + "\n");
         Cantidades.appendText(docientos + "\n");
         Cantidades.appendText(cien + "\n");
-        Cantidades.appendText(cincuenta + "\n"); // o simplemente b50
+        Cantidades.appendText(cincuenta + "\n");
         Cantidades.appendText(veinte + "\n");
         Cantidades.appendText(dies + "\n");
         Cantidades.appendText(cinco + "\n");
