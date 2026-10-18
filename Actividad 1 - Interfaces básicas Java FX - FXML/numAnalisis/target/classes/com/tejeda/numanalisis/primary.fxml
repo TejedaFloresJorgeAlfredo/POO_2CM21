@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Button?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.TextArea?>
+
+<VBox xmlns:fx="http://javafx.com/fxml/1" alignment="CENTER" spacing="20.0" xmlns="http://javafx.com/javafx/8.0.171" fx:controller="com.tejeda.numanalisis.PrimaryController">
+   <children>
+       <Label text="Numero"/>  
+      <TextField fx:id="numero" />
+      
+      <Button text="Calcular" onAction="#switchToSecondary" /> 
+      <Button text="Limpiar" onAction="#Limpiar"/>  
+      
+      <Label text="Cantidad de cifras" />
+      <TextField fx:id="canCifras" />
+      
+      <Label text="Suma de numeros impares" />
+      <TextField fx:id="sumImpar" />
+      
+      <Label text="Suma de cifras pares" />
+      <TextField fx:id="SumPares" />
+      
+      <Label text="Suma total de cifras" />
+      <TextField fx:id="sumTodo" />
+      
+      <Label text="Cifra mayor" />
+      <TextField fx:id="cifraMa" />
+      
+      <Label text="Cifra menor" />
+      <TextField fx:id="cifraMen" />
+      
+      <Label text="Divisores" />
+      <TextArea fx:id="divisores"/> 
+      
+   </children>
+   <padding>
+      <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+   </padding>
+</VBox>

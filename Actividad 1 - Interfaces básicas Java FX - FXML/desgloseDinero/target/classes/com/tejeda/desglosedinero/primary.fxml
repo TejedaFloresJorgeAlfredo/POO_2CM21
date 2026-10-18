@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Button?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.TextArea?> 
+
+<VBox xmlns:fx="http://javafx.com/fxml/1" alignment="CENTER" spacing="20.0" xmlns="http://javafx.com/javafx/8.0.171" fx:controller="com.tejeda.desglosedinero.PrimaryController">
+   <children>
+      <Label text="Dinero" />
+      <TextField fx:id="dinero"/>
+      <Button fx:id="primaryButton" text="X" onAction="#Limpiar"/>
+      <Button fx:id="desglose" text="desglose" onAction="#switchToSecondary"/>
+      <TextArea fx:id="Billetes" text="Billetes de 500$&#10;Billetes de 200$&#10;Billetes de 100$&#10;Billetes de 50$&#10;Billetes de 20$&#10;Monedas de 10$&#10;Monedas de 5$&#10;Monedas de 2$&#10;Monedas de 1$" /> 
+      <TextArea fx:id="Cantidades"/>  
+   </children>
+   <padding>
+      <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+   </padding>
+</VBox>
